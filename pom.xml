@@ -5,8 +5,12 @@
 	<groupId>WebDriverMaven</groupId>
 	<artifactId>WebDriverMaven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -20,12 +24,12 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>3.7.1</version>
-</dependency>
-		
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.7.1</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
